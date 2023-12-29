@@ -10,6 +10,7 @@ const Station = () => {
   const matchedStation = stations.find(
     (station) => station.shortName == stationId
   );
+  let welcomeMsg =
   return (
     <div>
       <Navigation />
